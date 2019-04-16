@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <string name="app_head_line">ICC WORLD CUP 2019</string>
+
+    <string name="BANGLADESH">BANGLADESH</string>
+    <string name="AUS">AUSTRALIA</string>
+    <string name="AFG">AFGHANISTAN</string>
+    <string name="ENG">ENGLAND</string>
+    <string name="IND">INDIA</string>
+    <string name="NZ">NEW ZEALAND</string>
+    <string name="PAK">PAKISTAN</string>
+    <string name="SRI">SRI LANKA</string>
+    <string name="RSA">SOUTH AFRICA</string>
+    <string name="WIN">WINDIES</string>
+
+    <string name="TCB_1">TCB 1</string>
+    <string name="TCB2">TCB 2</string>
+    <string name="TCB3">TCB 3</string>
+    <string name="TCB4">TCB 4</string>
+    <string name="FINAL">TCB</string>
+
+    <string name="lon_venue">Venue: The Kennington Oval, London</string>
+    <string name="lon_venue2">Venue: Lord\'s, London</string>
+    <string name="notti_venue">Venue:Trent Bridge, Nottingham</string>
+    <string name="Bris_venue">Venue: County Ground, Bristol</string>
+    <string name="South_venue">Venue: The Rose Bowl, Southampton</string>
+    <string name="Taun_venue">Venue: The Cooper Associates County Ground, Taunton</string>
+    <string name="Manch_venue">Venue: Old Trafford, Manchester</string>
+    <string name="Birmin_venue">Venue: Edgbaston, Birmingham</string>
+    <string name="Leeds_venue">Venue: Headingley, Leeds</string>
+    <string name="Card_venue">Venue: Sophia Gardens, Cardiff</string>
+    <string name="Chester_venue">Venue: Riverside Ground, Chester-le-Street</string>
+
+</resources>

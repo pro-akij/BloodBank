@@ -1,0 +1,286 @@
+<resources>
+    <string name="app_name">ICCWorldCup2019</string>
+
+    <string name="BANNER_ID">ca-app-pub-7638115839816299/7370585066</string>
+    <string name="INTERSTITIAL_ID">ca-app-pub-7638115839816299/7151093213</string>
+    <string name="APP_ID">ca-app-pub-7638115839816299~9338272858</string>
+
+    <string-array name="COUNTY">
+        <item>ENGLAND (1)</item>
+        <item>INDIA (2)</item>
+        <item>NEW ZEALAND (3)</item>
+        <item>SOUTH AFRICA (4)</item>
+        <item>AUSTRALIA (5)</item>
+        <item>PAKISTAN (6)</item>
+        <item>BANGLADESH (7)</item>
+        <item>SRI LANKA (8)</item>
+        <item>WINDIES (9)</item>
+        <item>AFGHANISTAN (10)</item>
+    </string-array>
+
+    <string-array name="COUNTY2">
+        <item>ENGLAND</item>
+        <item>INDIA</item>
+        <item>NEW ZEALAND</item>
+        <item>SOUTH AFRICA</item>
+        <item>AUSTRALIA</item>
+        <item>PAKISTAN</item>
+        <item>BANGLADESH</item>
+        <item>SRI LANKA</item>
+        <item>WINDIES</item>
+        <item>AFGHANISTAN</item>
+    </string-array>
+
+    <string name="lon_open">Opened: 1845</string>
+    <string name="lon_capacity">Capacity: 23500</string>
+    <string name="lon_location">Location: Pavilion, Vauxhall, England</string>
+
+    <string name="lon2_open">Opened: 1814</string>
+    <string name="lon2_capacity">Capacity: 30000</string>
+    <string name="lon2_location">Location: London, England</string>
+
+    <string name="notti_open">Opened: 1841</string>
+    <string name="notti_capacity">Capacity: 15350 (17000 developing)</string>
+    <string name="notti_location">Location: Nottingham, England</string>
+
+    <string name="bris_open">Opened: 1889</string>
+    <string name="bris_capacity">Capacity: 7000(15000 ODIs)</string>
+    <string name="bris_location">Location: Bristol, England</string>
+
+    <string name="soth_open">Opened: 2001</string>
+    <string name="soth_capacity">Capacity: 6500(20000 temporary seat)</string>
+    <string name="soth_location">Location: Southampton, England</string>
+
+    <string name="taun_open">Opened: 1882</string>
+    <string name="taun_capacity">Capacity: 6500</string>
+    <string name="taun_location">Location: Taunton, England</string>
+
+    <string name="leed_open">Opened: 1890</string>
+    <string name="leed_capacity">Capacity: 17000</string>
+    <string name="leed_location">Location: Leeds, England</string>
+
+    <string name="birmin_open">Opened: 1882</string>
+    <string name="birmin_capacity">Capacity: 21000</string>
+    <string name="birmin_location">Location: Birmingham, England</string>
+
+    <string name="manch_open">Opened: 1857</string>
+    <string name="manch_capacity">Capacity: 19000</string>
+    <string name="manch_location">Location: Manchester, England</string>
+
+    <string name="ches_open">Opened: 1995</string>
+    <string name="ches_capacity">Capacity: 5000(17000 international)</string>
+    <string name="ches_location">Location: Chester-le-Street, England</string>
+
+    <string name="card_open">Opened: 1967</string>
+    <string name="card_capacity">Capacity: 5000(15000 redevelopment)</string>
+    <string name="card_location">Location: Cardiff, Wales</string>
+
+    <string-array name="England">
+        <item>Joe Root(C)</item>
+        <item>Jason Roy</item>
+        <item>Eoin Morgan</item>
+        <item>Dawid Malan</item>
+        <item>Alex Hales</item>
+        <item>Jonny Bairstow</item>
+        <item>Sam Billings</item>
+        <item>Jos Buttler(WK)</item>
+        <item>Moeen Ali</item>
+        <item>Ben Stokes</item>
+        <item>Chris Woakes</item>
+        <item>David Willey</item>
+        <item>Pach boal</item>
+        <item>Tom Curran</item>
+        <item>Liam Plunkett</item>
+        <item>Mark Wood</item>
+        <item>Craig Overton</item>
+        <item>Adil Rashid</item>
+    </string-array>
+
+    <string-array name="India">
+        <item>Virat Kohli(C)</item>
+        <item>Rohit Sharma</item>
+        <item>Shikhar Dhawan</item>
+        <item>Ambati Rayudu</item>
+        <item>K. L. Rahul</item>
+        <item>Ravichandran Ashwin</item>
+        <item>Ravindra Jadeja</item>
+        <item>Hardik Pandya</item>
+        <item>Kedar Jadhav</item>
+        <item>Mahendra Singh Dhoni(WK)</item>
+        <item>Rishabh Pant</item>
+        <item>Dinesh Karthik</item>
+        <item>Jasprit Bumrah</item>
+        <item>Bhuvneshwar Kumar</item>
+        <item>Mohammed Shami</item>
+        <item>Umesh Yadav</item>
+        <item>Yuzvendra Chahal</item>
+        <item>Kuldeep Yadav</item>
+    </string-array>
+
+    <string-array name="New_Zeland">
+        <item>Martin Guptill</item>
+        <item>Ross Taylor</item>
+        <item>Kane Williamson(C)</item>
+        <item>Tom Latham(WK)</item>
+        <item>Tom Blundell</item>
+        <item>Henry Nicholls</item>
+        <item>Colin de Grandhomme</item>
+        <item>Colin Munro</item>
+        <item>Mitchell Santner</item>
+        <item>James Neesham</item>
+        <item>Trent Boult</item>
+        <item>Lockie Ferguson</item>
+        <item>Matt Henry</item>
+        <item>Ish Sodhi</item>
+        <item>Tim Southee</item>
+    </string-array>
+
+    <string-array name="South_Africa">
+        <item>Faf du Plessis(C)</item>
+        <item>Hashim Amla</item>
+        <item>Aiden Markram</item>
+        <item>David Miller</item>
+        <item>Rassie van der Dussen</item>
+        <item>Reeza Hendricks</item>
+        <item>Temba Bavuma</item>
+        <item>Quinton de Kock(WK)</item>
+        <item>Heinrich Klaasen</item>
+        <item>JP Duminy</item>
+        <item>Dwaine Pretorius</item>
+        <item>Andile Phehlukwayo</item>
+        <item>Dale Steyn</item>
+        <item>Lungi Ngidi</item>
+        <item>Kagiso Rabada</item>
+        <item>Anrich Nortje</item>
+        <item>Imran Tahir</item>
+        <item>Tabraiz Shamsi</item>
+    </string-array>
+
+    <string-array name="Australia">
+        <item>Steven Smith(C)</item>
+        <item>Aaron Finch</item>
+        <item>David Warner</item>
+        <item>Matt Renshaw</item>
+        <item>Travis Head</item>
+        <item>Usman Khawaja</item>
+        <item>Shaun Marsh</item>
+        <item>Peter Handscomb(WK)</item>
+        <item>Mitchell Marsh</item>
+        <item>Glenn Maxwell</item>
+        <item>D Arcy Short</item>
+        <item>Marcus Stoinis</item>
+        <item>Pat Cummins</item>
+        <item>Nathan Coulter-Nile</item>
+        <item>Josh Hazlewood</item>
+        <item>Kane Richardson</item>
+        <item>Mitchell Starc</item>
+        <item>Adam Zampa</item>
+    </string-array>
+
+    <string-array name="Pakistan">
+        <item>Imam-ul-Haq</item>
+        <item>Fakhar Zaman</item>
+        <item>Shan Masood</item>
+        <item>Abid Ali</item>
+        <item>Babar Azam</item>
+        <item>Asad Shafiq</item>
+        <item>Mohammad Rizwan</item>
+        <item>Sarfraz Ahmed(C &amp; WK)</item>
+        <item>Shoaib Malik</item>
+        <item>Mohammad Hafeez</item>
+        <item>Faheem Ashraf</item>
+        <item>Imad Wasim</item>
+        <item>Shadab Khan</item>
+        <item>Mohammad Amir</item>
+        <item>Hasan Ali</item>
+        <item>Mohammad Abbas</item>
+        <item>Shaheen Shah Afridi</item>
+        <item>Usman Shinwari</item>
+    </string-array>
+
+    <string-array name="Bangladesh">
+        <item>Tamim Iqbal</item>
+        <item>Soumya Sarkar</item>
+        <item>Sabbir Rahman</item>
+        <item>Imrul Kayes</item>
+        <item>Mominul Haque</item>
+        <item>Mushfiqur Rahim(WK)</item>
+        <item>Mohammad Mithun Ali</item>
+        <item>Liton Das</item>
+        <item>Shakib Al Hasan</item>
+        <item>Mahmudullah Riad</item>
+        <item>Mehidy Hasan Miraz</item>
+        <item>Mosaddek Hossain</item>
+        <item>Mohammad Saifuddin</item>
+        <item>Mashrafe Mortaza(C)</item>
+        <item>Rubel Hossain</item>
+        <item>Taskin Ahmed</item>
+        <item>Mustafizur Rahman</item>
+        <item>Shafiul Islam</item>
+    </string-array>
+
+    <string-array name="Srilanka">
+        <item>Upul Tharanga</item>
+        <item>Niroshan Dickwella</item>
+        <item>Avishka Fernando</item>
+        <item>Roshen Silva</item>
+        <item>Angelo Mathews</item>
+        <item>Kusal Perera(WK)</item>
+        <item>Kusal Mendis</item>
+        <item>Dinesh Chandimal</item>
+        <item>Thisara Perera</item>
+        <item>Isuru Udana</item>
+        <item>Dhananjaya de Silva</item>
+        <item>Angelo Perera</item>
+        <item>Suranga Lakmal</item>
+        <item>Lasith Malinga(C)</item>
+        <item>Akila Dananjaya</item>
+        <item>Lakshan Sandakan</item>
+        <item>Lahiru Kumara</item>
+        <item>Kasun Rajitha</item>
+    </string-array>
+
+    <string-array name="Windies">
+        <item>Evin Lewis</item>
+        <item>Darren Bravo</item>
+        <item>Shimron Hetmyer</item>
+        <item>Rovman Powell</item>
+        <item>Shai Hope</item>
+        <item>Nicolas Pooran(WK)</item>
+        <item>Denesh Ramdin</item>
+        <item>Marlon Samuels</item>
+        <item>Carlos Brathwaite</item>
+        <item>Jason Holder(C)</item>
+        <item>Andre Russell</item>
+        <item>Ashley Nurse</item>
+        <item>Sheldon Cottrell</item>
+        <item>Oshane Thomas</item>
+        <item>Shannon Gabriel</item>
+        <item>Fabian Allen</item>
+        <item>Devendra Bishoo</item>
+        <item>Keemo Paul</item>
+    </string-array>
+
+    <string-array name="Afganistan">
+        <item>Asghar Afghan(C)</item>
+        <item>Hazratullah Zazai</item>
+        <item>Hashmatullah Shahidi</item>
+        <item>Najibullah Zadran</item>
+        <item>Javed Ahmadi</item>
+        <item>Noor Ali</item>
+        <item>Mohammad Shahzad(WK)</item>
+        <item>Afsar Zazai</item>
+        <item>Mohammad Nabi</item>
+        <item>Gulbadin Naib</item>
+        <item>Rahmat Shah</item>
+        <item>Samiullah Shenwari</item>
+        <item>Aftab Alam</item>
+        <item>Karim Janat</item>
+        <item>Dawlat Zadran</item>
+        <item>Mujeeb Ur Rahman</item>
+        <item>Rashid Khan</item>
+        <item>Zahir Khan</item>
+    </string-array>
+
+
+</resources>
