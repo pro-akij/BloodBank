@@ -1,0 +1,258 @@
+<resources>
+    <string name="app_name">Blood Bank</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string-array name="Blood_Name">
+        <item>Blood Type</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+
+    <string-array name="Blood_Amount">
+        <item>Select Blood Amount</item>
+        <item>1 beg</item>
+        <item>2 beg</item>
+        <item>3 beg</item>
+        <item>4 beg</item>
+        <item>5 beg</item>
+    </string-array>
+
+    <string-array name="District_Name">
+        <item>Select District</item>
+        <item>BARGUNA</item>
+        <item>BARISAL</item>
+        <item>BHOLA</item>
+        <item>JHALOKATI</item>
+        <item>PATUAKHALI</item>
+        <item>PIROJPUR</item>
+        <item>BANDARBAN</item>
+        <item>BRAHMANBARIA</item>
+        <item>CHANDPUR</item>
+        <item>CHITTAGONG</item>
+        <item>COMILLA</item>
+        <item>COXS BAZAR</item>
+        <item>FENI</item>
+        <item>KHAGRACHHARI</item>
+        <item>LAKSHMIPUR</item>
+        <item>NOAKHALI</item>
+        <item>RANGAMATI</item>
+        <item>DHAKA</item>
+        <item>FARIDPUR</item>
+        <item>GAZIPUR</item>
+        <item>GOPALGANJ</item>
+        <item>JAMALPUR</item>
+        <item>KISHOREGONJ</item>
+        <item>MADARIPUR</item>
+        <item>MANIKGANJ</item>
+        <item>MUNSHIGANJ</item>
+        <item>MYMENSINGH</item>
+        <item>NARAYANGANJ</item>
+        <item>NETRAKONA</item>
+        <item>RAJBARI</item>
+        <item>SHARIATPUR</item>
+        <item>SHERPUR</item>
+        <item>TANGAIL</item>
+        <item>BAGERHAT</item>
+        <item>CHUADANGA</item>
+        <item>JESSORE</item>
+        <item>JHENAIDAH</item>
+        <item>KHULNA</item>
+        <item>KUSHTIA</item>
+        <item>MAGURA</item>
+        <item>MEHERPUR</item>
+        <item>NARAIL</item>
+        <item>SATKHIRA</item>
+        <item>BOGRA</item>
+        <item>CHAPAINABABGANJ</item>
+        <item>JOYPURHAT</item>
+        <item>PABNA</item>
+        <item>NAOGAON</item>
+        <item>NATORE</item>
+        <item>RAJSHAHI</item>
+        <item>SIRAJGANJ</item>
+        <item>DINAJPUR</item>
+        <item>GAIBANDHA</item>
+        <item>KURIGRAM</item>
+        <item>LALMONIRHAT</item>
+        <item>NILPHAMARI</item>
+        <item>PANCHAGARH</item>
+        <item>RANGPUR</item>
+        <item>THAKURGAON</item>
+        <item>HABIGANJ</item>
+        <item>MAULVIBAZAR</item>
+        <item>SUNAMGANJ</item>
+        <item>SYLHET</item>
+    </string-array>
+
+    <string-array name="Blood_News">
+        <item>উপকারিতা</item>
+
+        <item>রক্তদানে কোনো সমস্যা হয় না। কেননা একজন সুস্থ মানুষের শরীরে পাঁচ-ছয় লিটার রক্ত থাকে। এর মধ্যে সাধারণত ২৫০ থেকে ৪০০ মিলিলিটার রক্ত দান করা হয়, যা শরীরে থাকা মোট রক্তের মাত্র ১০ ভাগের এক ভাগ। রক্তের মূল উপাদান পানি, যা ২৪ ঘণ্টার মধ্যেই পূরণ হয়।</item>
+
+        <item>রক্তদান স্বাস্থ্যের জন্য উপকারী। রক্তদানের সঙ্গে সঙ্গে শরীরের ‘বোনম্যারো’ নতুন কণিকা তৈরির জন্য উদ্দীপ্ত হয়। দুই সপ্তাহের মধ্যে নতুন রক্তকণিকা জন্ম হয়, ঘাটতি পূরণ হয়।</item>
+
+        <item>বছরে তিনবার রক্তদান শরীরে লোহিত কণিকাগুলোর প্রাণবন্ততা বাড়িয়ে তোলে ও নতুন কণিকা তৈরির হার বাড়ায়।</item>
+
+        <item>নিয়মিত রক্তদানকারীর হার্ট ও লিভার ভালো থাকে।</item>
+
+        <item>স্বেচ্ছায় রক্তদানের মাধ্যমে পাঁচটি পরীক্ষা সম্পূর্ণ বিনা খরচে করা হয়। এর মাধ্যমে জানা যায় শরীরে অন্য বড় কোনো রোগ আছে কি না। যেমন—হেপাটাইটিস-বি, হেপাটাইটিস-সি, ম্যালেরিয়া, সিফিলিস, এইচআইভি (এইডস) ইত্যাদি।</item>
+
+        <item>রক্তদান অনেক ক্ষেত্রে ক্যান্সার প্রতিরোধেও সহায়তা করে।</item>
+
+        <item>রক্তে কোলস্টেরলের উপস্থিতি কমাতে সাহায্য করে।</item>
+
+        <item>শরীরে অতিরিক্ত আয়রনের উপস্থিতিকে বলে Hemochromatosis। নিয়মিত রক্তদান এই রোগ প্রতিরোধ করে।</item>
+
+        <item>স্থূলদেহী মানুষের ওজন কমাতে রক্তদান সহায়ক।</item>
+
+        <item>মুমূর্ষুকে রক্ত দিলে মানসিক তৃপ্তি মেলে।</item>
+
+        <item>রক্তদানের শর্তগুলো</item>
+
+        <item>রক্তদাতাকে সুস্থ থাকতে হবে এবং ১৮ থেকে ৬০ বছর বয়সী ৪৫ কেজি ওজনের যেকোনো মানুষ রক্তদান করতে পারে।</item>
+
+        <item>দাতার রক্তের স্ক্রিনিং টেস্ট বা রক্ত নিরাপদ কি না তা পরীক্ষা-নিরীক্ষা করা।</item>
+
+        <item>ভরপেটে খাওয়ার চার ঘণ্টা পর রক্ত দেওয়া শ্রেয়।</item>
+
+        <item>কোনো রূপ এনার্জি ড্রিংক রক্তদানের আগে সেবন না করাই ভালো।</item>
+
+        <item>যাঁদের ডায়াবেটিস ও উচ্চ রক্তচাপ পূর্ণ নিয়ন্ত্রণে রয়েছে তাঁরা চিকিৎসকের পরামর্শে রক্তদান করতে পারেন।</item>
+
+        <item>যাঁদের রক্তদান নিষেধ</item>
+
+        <item>ক্যান্সার, হিমোফিলিয়া, ম্যালেরিয়াসহ জীবাণুঘটিত কোনো রোগী।</item>
+
+        <item>এইচআইভি বা এইডস আক্রান্তরা।</item>
+
+        <item>মাদক সেবনকারী।</item>
+
+        <item>হেপাটাইটিস-বি ও সি-র এন্টিজেন পজিটিভ যাঁদের। পরবর্তী সময় তা নেগেটিভ হলেও রক্ত দেওয়া যাবে না।</item>
+
+        <item>গর্ভবতী মহিলারা।</item>
+
+        <item>যাঁদের অতিরিক্ত শ্বাসকষ্ট হয়।</item>
+
+        <item>যাঁরা বারবার ডায়রিয়ায় আক্রান্ত হন।</item>
+
+        <item>গত তিন মাসের মধ্যে রক্তদান করেছেন এমন মানুষ।</item>
+
+        <item>যাঁদের শরীরের কোনো স্থানের গ্ল্যান্ড (লিম্ফনোড) ফুলে গেছে। বিশেষ করে ঘাড়, গলায়, হাতের নিচের গ্লান্ড।</item>
+
+    </string-array>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="add_ambulance_btn">add ambulance</string>
+    <string name="add_doner_btn">add doner</string>
+    <string name="submit_btn">submit</string>
+    <string name="doner_name">Doner Name</string>
+    <string name="contact1">Contact</string>
+    <string name="contact2">Contact</string>
+    <string name="submit">submit</string>
+    <string name="ambulance">Ambulance</string>
+    <string name="location1">Location</string>
+    <string name="district">district</string>
+    <string name="contact">Contact</string>
+    <string name="submit2">submit</string>
+    <string name="club_name">Club Name</string>
+    <string name="location2">Location</string>
+    <string name="add_club">add club</string>
+    <string name="email">Email :</string>
+    <string name="password">Password :</string>
+    <string name="todo">TODO</string>
+    <string name="your_blood_bank">Your Blood Bank</string>
+    <string name="your_information">your information</string>
+    <string name="enter_contact">Enter Contact</string>
+    <string name="enter_blood_group">Enter Blood Group</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_district">Enter District</string>
+    <string name="your_privacy">your privacy</string>
+    <string name="email_sign">Email</string>
+    <string name="sign_up">sign up</string>
+    <string name="passward">passward</string>
+    <string name="todo1">TODO</string>
+    <string name="contact3">Contact</string>
+    <string name="location">Location</string>
+    <string name="describe">Describe</string>
+    <string name="hospital">Hospital</string>
+    <string name="request">request</string>
+    <string name="full_name">Full name</string>
+    <string name="version_1_0_0">version 1.0.0</string>
+    <string name="doner">doner</string>
+    <string name="blood_bank">BLOOD BANK</string>
+    <string name="search">search</string>
+    <string name="about_donation">About Donation</string>
+    <string name="add_club2">add club</string>
+    <string name="select_blood">select blood</string>
+    <string name="request2">request</string>
+    <string name="feed">feed</string>
+    <string name="ambulance_main">ambulance</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="todo4">TODO</string>
+    <string name="todo5">TODO</string>
+    <string name="todo6">TODO</string>
+    <string name="this_is_app_developer">this is app developer</string>
+    <string name="this_is_app_developer1">this is app developer</string>
+    <string name="this_is_app_developer2">this is app developer</string>
+    <string name="todo15">TODO</string>
+    <string name="this_is_app_developer3">this is app developer</string>
+    <string name="this_is_app_developer4">this is app developer</string>
+    <string name="todo16">TODO</string>
+    <string name="this_is_app_developer5">this is app developer</string>
+    <string name="todo17">TODO</string>
+    <string name="this_is_app_developer6">this is app developer</string>
+    <string name="todo18">TODO</string>
+    <string name="this_is_app_developer7">this is app developer</string>
+    <string name="todo19">TODO</string>
+    <string name="todo20">TODO</string>
+    <string name="todo21">TODO</string>
+    <string name="todo22">TODO</string>
+    <string name="this_is_app_developer8">this is app developer</string>
+    <string name="this_is_app_developer9">this is app developer</string>
+    <string name="this_is_app_developer10">this is app developer</string>
+    <string name="this_is_app_developer11">this is app developer</string>
+    <string name="todo7">TODO</string>
+    <string name="todo8">TODO</string>
+    <string name="todo9">TODO</string>
+    <string name="todo10">TODO</string>
+    <string name="todo11">TODO</string>
+    <string name="todo12">TODO</string>
+    <string name="todo13">TODO</string>
+    <string name="todo14">TODO</string>
+    <string name="this_is_app_developer12">this is app developer</string>
+    <string name="this_is_app_developer13">this is app developer</string>
+    <string name="this_is_app_developer14">this is app developer</string>
+    <string name="this_is_app_developer15">this is app developer</string>
+    <string name="this_is_app_developer16">this is app developer</string>
+    <string name="this_is_app_developer17">this is app developer</string>
+    <string name="this_is_app_developer18">this is app developer</string>
+    <string name="this_is_app_developer19">this is app developer</string>
+    <string name="todo23">TODO</string>
+    <string name="todo24">TODO</string>
+    <string name="todo25">TODO</string>
+    <string name="todo26">TODO</string>
+</resources>

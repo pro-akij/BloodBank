@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_my_account"
+            android:icon="@drawable/login_icon"
+            android:title="My Account" />
+        <item
+            android:id="@+id/search_your_blood"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Search"/>
+        <item
+            android:id="@+id/nav_add_amb"
+            android:icon="@drawable/ambulance"
+            android:title="Ambulance"/>
+        <item
+            android:id="@+id/nav_privacy"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Privecy Policy" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_rate_us"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Rate us" />
+            <item
+                android:id="@+id/nav_about_me"
+                android:icon="@drawable/ic_menu_send"
+                android:title="About me" />
+        </menu>
+    </item>
+
+</menu>

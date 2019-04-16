@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="9"
+    tools:context=".Request"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <EditText
+                    android:id="@+id/Enter_Full_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/round_edtx"
+                    android:singleLine="true"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:hint="@string/full_name"
+                    android:inputType="" />
+                <Spinner
+                    android:id="@+id/Enter_Blood_Type"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/round_button2"
+                    android:layout_marginTop="10dp"/>
+                <Spinner
+                    android:id="@+id/Enter_Blood_Amount"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/round_button2"
+                    android:layout_marginTop="10dp"/>
+                <Spinner
+                    android:id="@+id/Enter_your_District"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/round_button2"
+                    android:layout_marginTop="10dp"/>
+
+                <EditText
+                    android:id="@+id/Enter_contact_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/round_edtx"
+                    android:layout_marginTop="10dp"
+                    android:inputType="number"
+                    android:singleLine="true"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:hint="@string/contact"/>
+
+                <EditText
+                    android:id="@+id/Enter_Hospital_Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/round_edtx"
+                    android:layout_marginTop="10dp"
+                    android:singleLine="true"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:hint="@string/hospital"
+                    android:inputType="" />
+
+                <EditText
+                    android:id="@+id/Enter_Hospital_Location"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_edtx"
+                    android:singleLine="true"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:hint="@string/location"
+                    android:inputType="" />
+
+                <EditText
+                    android:id="@+id/Enter_Blood_reason"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/round_edtx"
+                    android:layout_marginTop="10dp"
+                    android:singleLine="true"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:hint="@string/describe"
+                    android:inputType="" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp">
+        <Button
+            android:id="@+id/submit_Request"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_button"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="@string/request"/>
+    </LinearLayout>
+</LinearLayout>

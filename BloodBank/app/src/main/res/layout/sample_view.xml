@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp">
+
+                        <ImageView
+                            android:id="@+id/icon_model1"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            app:srcCompat="@drawable/name"
+                            android:contentDescription="@string/todo" />
+
+                        <ImageView
+                            android:id="@+id/icon_model2"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/icon_model1"
+                            app:srcCompat="@drawable/blood1"
+                            android:contentDescription="@string/todo" />
+
+                        <ImageView
+                            android:id="@+id/icon_model3"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/icon_model2"
+                            app:srcCompat="@drawable/blamount"
+                            android:contentDescription="@string/todo" />
+
+                        <ImageView
+                            android:id="@+id/icon_model4"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/icon_model3"
+                            app:srcCompat="@drawable/district"
+                            android:contentDescription="@string/todo" />
+
+                        <ImageView
+                            android:id="@+id/icon_model5"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/icon_model4"
+                            app:srcCompat="@drawable/contact"
+                            android:contentDescription="@string/todo" />
+
+                        <ImageView
+                            android:id="@+id/icon_model6"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/icon_model5"
+                            app:srcCompat="@drawable/hospital"
+                            android:contentDescription="@string/todo" />
+
+                        <ImageView
+                            android:id="@+id/icon_model7"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/icon_model6"
+                            app:srcCompat="@drawable/location"
+                            android:contentDescription="@string/todo" />
+
+                        <ImageView
+                            android:id="@+id/icon_model8"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/icon_model7"
+                            app:srcCompat="@drawable/description"
+                            android:contentDescription="@string/todo" />
+
+                        <TextView
+                            android:id="@+id/model_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@id/icon_model1"
+                            android:text="@string/this_is_app_developer"
+                            android:layout_toEndOf="@id/icon_model1"
+                            android:layout_marginStart="10dp" />
+                        <TextView
+                            android:id="@+id/model_blood"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@id/icon_model2"
+                            android:layout_below="@+id/model_name"
+                            android:text="@string/this_is_app_developer"
+                            android:layout_toEndOf="@id/icon_model2"
+                            android:layout_marginStart="10dp" />
+                        <TextView
+                            android:id="@+id/model_blood_amount"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@id/icon_model3"
+                            android:layout_below="@+id/model_blood"
+                            android:text="@string/this_is_app_developer"
+                            android:layout_marginStart="10dp"
+                            android:layout_toEndOf="@id/icon_model3" />
+                        <TextView
+                            android:id="@+id/model_district"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@id/icon_model4"
+                            android:layout_below="@+id/model_blood_amount"
+                            android:text="@string/this_is_app_developer"
+                            android:layout_marginStart="10dp"
+                            android:layout_toEndOf="@id/icon_model4" />
+                        <TextView
+                            android:id="@+id/model_contact"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@id/icon_model5"
+                            android:layout_below="@+id/model_district"
+                            android:text="@string/this_is_app_developer"
+                            android:layout_marginStart="10dp"
+                            android:layout_toEndOf="@id/icon_model5" />
+                        <TextView
+                            android:id="@+id/model_hospital_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@id/icon_model5"
+                            android:layout_below="@+id/model_contact"
+                            android:text="@string/this_is_app_developer"
+                            android:layout_marginStart="10dp"
+                            android:layout_toEndOf="@id/icon_model5" />
+                        <TextView
+                            android:id="@+id/model_hospital_location"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@id/icon_model6"
+                            android:layout_below="@+id/model_hospital_name"
+                            android:text="@string/this_is_app_developer"
+                            android:layout_marginStart="10dp"
+                            android:layout_toEndOf="@id/icon_model6" />
+                        <TextView
+                            android:id="@+id/model_description"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@id/icon_model7"
+                            android:layout_below="@+id/model_hospital_location"
+                            android:text="@string/this_is_app_developer"
+                            android:layout_marginStart="10dp"
+                            android:layout_toEndOf="@id/icon_model7" />
+
+                </RelativeLayout>
+
+
+
+        </android.support.v7.widget.CardView>
+
+</LinearLayout>
