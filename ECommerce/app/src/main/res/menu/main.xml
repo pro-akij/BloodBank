@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/cart"
+        app:showAsAction="always"
+        android:title="shopping cart"
+        app:actionLayout="@layout/card_view"
+        android:icon="@drawable/shopping_cart"/>
+    <item
+        android:id="@+id/menu_log_in"
+        app:showAsAction="never"
+        android:title="Log In"/>
+    <item
+        android:id="@+id/menu_register"
+        app:showAsAction="never"
+        android:title="Register"/>
+</menu>

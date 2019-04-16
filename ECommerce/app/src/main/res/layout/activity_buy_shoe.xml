@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Buy_shoe">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="vertical">
+        <ViewFlipper
+            android:id="@+id/shoe_view_flipper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:outlineAmbientShadowColor="#0ad232"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageButton
+                        android:id="@+id/image_shoe1"
+                        android:layout_width="match_parent"
+                        android:layout_height="190dp"
+                        app:srcCompat="@drawable/shoe1"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentTop="true"
+                        android:background="#fff"
+                        android:scaleType="fitCenter"/>
+
+                    <ImageButton
+                        android:id="@+id/image_shoe2"
+                        android:layout_width="match_parent"
+                        android:layout_height="190dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/shoe1_prize"
+                        app:srcCompat="@drawable/shoe2"
+                        android:background="#fff"
+                        android:scaleType="fitCenter"/>
+
+                    <ImageButton
+                        android:id="@+id/image_shoe3"
+                        android:layout_width="match_parent"
+                        android:layout_height="190dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/shoe2_prize"
+                        app:srcCompat="@drawable/shoe3"
+                        android:background="#fff"
+                        android:scaleType="fitCenter"/>
+
+                    <TextView
+                        android:id="@+id/shoe1_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/image_shoe1"
+                        android:background="#fff"
+                        android:maxLines="2"
+                        android:layout_marginTop="1dp"
+                        android:text="mens black t~shirt"/>
+
+                    <TextView
+                        android:id="@+id/shoe2_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/image_shoe2"
+                        android:background="#fff"
+                        android:maxLines="2"
+                        android:layout_marginTop="1dp"
+                        android:text="mens black t~shirt" />
+
+                    <TextView
+                        android:id="@+id/shoe3_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/image_shoe3"
+                        android:background="#fff"
+                        android:maxLines="2"
+                        android:layout_marginTop="1dp"
+                        android:text="mens black t~shirt"/>
+
+
+                    <TextView
+                        android:id="@+id/shoe1_prize"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/shoe1_text"
+                        android:background="#fff"
+                        android:text="$110"
+                        android:textAllCaps="true"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_marginTop="1dp"
+                        android:textAppearance="?android:textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/shoe2_prize"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/shoe2_text"
+                        android:background="#fff"
+                        android:text="$122"
+                        android:textAllCaps="true"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_marginTop="1dp"
+                        android:textAppearance="?android:textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/shoe3_prize"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/shoe3_text"
+                        android:background="#fff"
+                        android:text="$182"
+                        android:textAllCaps="true"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_marginTop="1dp"
+                        android:textAppearance="?android:textAppearanceLarge" />
+
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/image_shoe4"
+                        android:layout_width="match_parent"
+                        android:layout_height="190dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        app:srcCompat="@drawable/shoe4"
+                        android:background="#fff"
+                        android:scaleType="fitCenter"/>
+
+                    <ImageButton
+                        android:id="@+id/image_shoe5"
+                        android:layout_width="match_parent"
+                        android:layout_height="190dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/shoe4_prize"
+                        app:srcCompat="@drawable/shoe5"
+                        android:background="#fff"
+                        android:scaleType="fitCenter"/>
+
+                    <ImageButton
+                        android:id="@+id/image_shoe6"
+                        android:layout_width="match_parent"
+                        android:layout_height="190dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/shoe5_prize"
+                        app:srcCompat="@drawable/shoe6"
+                        android:background="#fff"
+                        android:scaleType="fitCenter"/>
+
+                    <TextView
+                        android:id="@+id/shoe4_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/image_shoe4"
+                        android:background="#fff"
+                        android:maxLines="2"
+                        android:layout_marginTop="1dp"
+                        android:text="white check t~shirt"/>
+
+                    <TextView
+                        android:id="@+id/shoe5_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/image_shoe5"
+                        android:background="#fff"
+                        android:maxLines="2"
+                        android:layout_marginTop="1dp"
+                        android:text="mens gray t~shirt"/>
+
+                    <TextView
+                        android:id="@+id/shoe6_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/image_shoe6"
+                        android:background="#fff"
+                        android:maxLines="2"
+                        android:layout_marginTop="1dp"
+                        android:text="mens black t~shirt"/>
+
+
+                    <TextView
+                        android:id="@+id/shoe4_prize"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/shoe4_text"
+                        android:background="#fff"
+                        android:text="$90"
+                        android:textAllCaps="true"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_marginTop="1dp"
+                        android:textAppearance="?android:textAppearanceLarge"/>
+
+                    <TextView
+                        android:id="@+id/shoe5_prize"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/shoe5_text"
+                        android:background="#fff"
+                        android:text="$86"
+                        android:textAllCaps="true"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_marginTop="1dp"
+                        android:textAppearance="?android:textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/shoe6_prize"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/shoe6_text"
+                        android:background="#fff"
+                        android:text="$165"
+                        android:textAllCaps="true"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_marginTop="1dp"
+                        android:textAppearance="?android:textAppearanceLarge"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

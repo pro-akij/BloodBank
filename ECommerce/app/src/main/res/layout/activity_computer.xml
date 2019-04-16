@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorgood"
+    android:orientation="vertical"
+    tools:context=".Computer">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="vertical">
+        <ViewFlipper
+            android:id="@+id/computer_view_flip"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:outlineAmbientShadowColor="#0ad232"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageButton
+                        android:id="@+id/image_apple"
+                        android:layout_width="match_parent"
+                        android:layout_height="190dp"
+                        app:srcCompat="@drawable/apple"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentTop="true"
+                        android:background="#fff"/>
+
+                    <ImageButton
+                        android:id="@+id/image_microsoft"
+                        android:layout_width="match_parent"
+                        android:layout_height="190dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/apple_prize"
+                        app:srcCompat="@drawable/microsoft"
+                        android:background="#fff"
+                        android:scaleType="fitCenter"/>
+
+                    <ImageButton
+                        android:id="@+id/image_dell"
+                        android:layout_width="match_parent"
+                        android:layout_height="190dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/microsoft_prize"
+                        app:srcCompat="@drawable/dell"
+                        android:background="#fff"
+                        android:scaleType="fitCenter"/>
+
+                    <TextView
+                        android:id="@+id/apple_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/image_apple"
+                        android:background="#fff"
+                        android:maxLines="2"
+                        android:layout_marginTop="1dp"
+                        android:text="you buy APPLE laptop"/>
+
+                    <TextView
+                        android:id="@+id/microsoft_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/image_microsoft"
+                        android:background="#fff"
+                        android:maxLines="2"
+                        android:layout_marginTop="1dp"
+                        android:text="you buy MICROSOFT laptop" />
+
+                    <TextView
+                        android:id="@+id/dell_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/image_dell"
+                        android:background="#fff"
+                        android:maxLines="2"
+                        android:layout_marginTop="1dp"
+                        android:text="you buy DELL laptop"/>
+
+
+                    <TextView
+                        android:id="@+id/apple_prize"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/apple_text"
+                        android:background="#fff"
+                        android:text="$1299"
+                        android:textAllCaps="true"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_marginTop="1dp"
+                        android:textAppearance="?android:textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/microsoft_prize"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/microsoft_text"
+                        android:background="#fff"
+                        android:text="$899"
+                        android:textAllCaps="true"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_marginTop="1dp"
+                        android:textAppearance="?android:textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/dell_prize"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dell_text"
+                        android:background="#fff"
+                        android:text="$449"
+                        android:textAllCaps="true"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_marginTop="1dp"
+                        android:textAppearance="?android:textAppearanceLarge" />
+
+
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/image_hp"
+                        android:layout_width="match_parent"
+                        android:layout_height="190dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        app:srcCompat="@drawable/hp"
+                        android:background="#fff"
+                        android:scaleType="fitCenter"/>
+
+                    <ImageButton
+                        android:id="@+id/image_lenovo"
+                        android:layout_width="match_parent"
+                        android:layout_height="190dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/hp_prize"
+                        app:srcCompat="@drawable/lenovo"
+                        android:background="#fff"
+                        android:scaleType="fitCenter"/>
+
+                    <ImageButton
+                        android:id="@+id/image_acer"
+                        android:layout_width="match_parent"
+                        android:layout_height="190dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/lenovo_prize"
+                        app:srcCompat="@drawable/acer"
+                        android:background="#fff"
+                        android:scaleType="fitCenter"/>
+
+                    <TextView
+                        android:id="@+id/hp_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/image_hp"
+                        android:background="#fff"
+                        android:maxLines="2"
+                        android:layout_marginTop="1dp"
+                        android:text="you buy HP laptop"/>
+
+                    <TextView
+                        android:id="@+id/lenovo_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/image_lenovo"
+                        android:background="#fff"
+                        android:maxLines="2"
+                        android:layout_marginTop="1dp"
+                        android:text="you buy LENOVO laptop"/>
+
+                    <TextView
+                        android:id="@+id/acer_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/image_acer"
+                        android:background="#fff"
+                        android:maxLines="2"
+                        android:layout_marginTop="1dp"
+                        android:text="you buy ACER laptop"/>
+
+
+                    <TextView
+                        android:id="@+id/hp_prize"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/hp_text"
+                        android:background="#fff"
+                        android:text="$604"
+                        android:textAllCaps="true"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_marginTop="1dp"
+                        android:textAppearance="?android:textAppearanceLarge"/>
+
+                    <TextView
+                        android:id="@+id/lenovo_prize"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/lenovo_text"
+                        android:background="#fff"
+                        android:text="$647"
+                        android:textAllCaps="true"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_marginTop="1dp"
+                        android:textAppearance="?android:textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/acer_prize"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/acer_text"
+                        android:background="#fff"
+                        android:text="$349"
+                        android:textAllCaps="true"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_marginTop="1dp"
+                        android:textAppearance="?android:textAppearanceLarge"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

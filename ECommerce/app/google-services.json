@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "765583879957",
+    "firebase_url": "https://ecommerce-4f7b8.firebaseio.com",
+    "project_id": "ecommerce-4f7b8",
+    "storage_bucket": "ecommerce-4f7b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765583879957:android:3929107fdd540027",
+        "android_client_info": {
+          "package_name": "com.example.habibadnan.e_commerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "765583879957-prtgceg8rf7sfkfcdcgve7bh4j5ipfu1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.habibadnan.e_commerce",
+            "certificate_hash": "6d5f339b205f100fd9279759c8f3c6da88d6b88d"
+          }
+        },
+        {
+          "client_id": "765583879957-9ctrblrk66lafe670skvphdnge7aoh9g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlJBIa4_7X89An1HA0cIUE5XBSO1MkeW4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "765583879957-9ctrblrk66lafe670skvphdnge7aoh9g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

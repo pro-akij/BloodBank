@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">E-Commerce</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="Quantity">
+        <item>Quantity</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_cloth__view_two">Cloth_View_two</string>
+    <string name="title_activity_cloth__view_three">Cloth_View_three</string>
+    <string name="title_activity_cloth__view_four">Cloth_View_four</string>
+    <string name="title_activity_cloth__view_five">Cloth_View_five</string>
+    <string name="title_activity_cloth__view_six">Cloth_View_six</string>
+    <string name="title_activity_cloth__view_seven">Cloth_View_seven</string>
+    <string name="title_activity_cloth__vew_eight">Cloth_Vew_eight</string>
+    <string name="add_to_cart">add to cart</string>
+    <string name="title_activity_my_shopping">My_shopping</string>
+
+</resources>

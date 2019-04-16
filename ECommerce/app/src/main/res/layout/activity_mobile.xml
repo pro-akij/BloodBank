@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Mobile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="vertical">
+        <ViewFlipper
+            android:id="@+id/mobile_view_flipper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:outlineAmbientShadowColor="#0ad232"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageButton
+                        android:id="@+id/image_iphone"
+                        android:layout_width="match_parent"
+                        android:layout_height="190dp"
+                        app:srcCompat="@drawable/iphone"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentTop="true"
+                        android:background="#fff"
+                        android:scaleType="fitCenter"/>
+
+                    <ImageButton
+                        android:id="@+id/image_samesung"
+                        android:layout_width="match_parent"
+                        android:layout_height="190dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/iphone_prize"
+                        app:srcCompat="@drawable/samesung"
+                        android:background="#fff"
+                        android:scaleType="fitCenter"/>
+
+                    <ImageButton
+                        android:id="@+id/image_nokia"
+                        android:layout_width="match_parent"
+                        android:layout_height="190dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/samesung_prize"
+                        app:srcCompat="@drawable/nokia"
+                        android:background="#fff"
+                        android:scaleType="fitCenter"/>
+
+
+                    <TextView
+                        android:id="@+id/iphone_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/image_iphone"
+                        android:background="#fff"
+                        android:maxLines="2"
+                        android:layout_marginTop="1dp"
+                        android:text="mens black t~shirt"/>
+
+                    <TextView
+                        android:id="@+id/samesung_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/image_samesung"
+                        android:background="#fff"
+                        android:maxLines="2"
+                        android:layout_marginTop="1dp"
+                        android:text="mens black t~shirt" />
+
+                    <TextView
+                        android:id="@+id/nokia_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/image_nokia"
+                        android:background="#fff"
+                        android:maxLines="2"
+                        android:layout_marginTop="1dp"
+                        android:text="mens black t~shirt"/>
+
+
+                    <TextView
+                        android:id="@+id/iphone_prize"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/iphone_text"
+                        android:background="#fff"
+                        android:text="$110"
+                        android:textAllCaps="true"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_marginTop="1dp"
+                        android:textAppearance="?android:textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/samesung_prize"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/samesung_text"
+                        android:background="#fff"
+                        android:text="$122"
+                        android:textAllCaps="true"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_marginTop="1dp"
+                        android:textAppearance="?android:textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/nokia_prize"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/nokia_text"
+                        android:background="#fff"
+                        android:text="$182"
+                        android:textAllCaps="true"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_marginTop="1dp"
+                        android:textAppearance="?android:textAppearanceLarge" />
+
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/image_xiaomi"
+                        android:layout_width="match_parent"
+                        android:layout_height="190dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        app:srcCompat="@drawable/xiaomi"
+                        android:background="#fff"
+                        android:scaleType="fitCenter"/>
+
+                    <ImageButton
+                        android:id="@+id/image_oppo"
+                        android:layout_width="match_parent"
+                        android:layout_height="190dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/xiaomi_prize"
+                        app:srcCompat="@drawable/oppo"
+                        android:background="#fff"
+                        android:scaleType="fitCenter"/>
+
+                    <ImageButton
+                        android:id="@+id/image_huwai"
+                        android:layout_width="match_parent"
+                        android:layout_height="190dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/oppo_prize"
+                        app:srcCompat="@drawable/huwai"
+                        android:background="#fff"
+                        android:scaleType="fitCenter"/>
+
+                    <TextView
+                        android:id="@+id/xiaomi_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/image_xiaomi"
+                        android:background="#fff"
+                        android:maxLines="2"
+                        android:layout_marginTop="1dp"
+                        android:text="white check t~shirt"/>
+
+                    <TextView
+                        android:id="@+id/oppo_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/image_oppo"
+                        android:background="#fff"
+                        android:maxLines="2"
+                        android:layout_marginTop="1dp"
+                        android:text="mens gray t~shirt"/>
+
+                    <TextView
+                        android:id="@+id/huwai_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/image_huwai"
+                        android:background="#fff"
+                        android:maxLines="2"
+                        android:layout_marginTop="1dp"
+                        android:text="mens black t~shirt"/>
+
+
+                    <TextView
+                        android:id="@+id/xiaomi_prize"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/xiaomi_text"
+                        android:background="#fff"
+                        android:text="$90"
+                        android:textAllCaps="true"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_marginTop="1dp"
+                        android:textAppearance="?android:textAppearanceLarge"/>
+
+                    <TextView
+                        android:id="@+id/oppo_prize"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/oppo_text"
+                        android:background="#fff"
+                        android:text="$86"
+                        android:textAllCaps="true"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_marginTop="1dp"
+                        android:textAppearance="?android:textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/huwai_prize"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/huwai_text"
+                        android:background="#fff"
+                        android:text="$165"
+                        android:textAllCaps="true"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_marginTop="1dp"
+                        android:textAppearance="?android:textAppearanceLarge"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

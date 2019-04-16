@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#aaa"
+    tools:context=".Log_in">
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="70dp">
+
+        <EditText
+            android:id="@+id/log_in_email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:singleLine="true"
+            android:background="@drawable/text_round"
+            android:paddingLeft="10dp"
+            android:hint="Username or Email"/>
+        <EditText
+            android:id="@+id/log_in_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:singleLine="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/text_round"
+            android:paddingLeft="10dp"
+            android:inputType="textPassword"
+            android:hint="Password"/>
+
+        <Button
+            android:id="@+id/log_in_submit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_round"
+            android:text="submite"/>
+        <TextView
+            android:id="@+id/go_to_register"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="i have no account"
+            android:textColor="#000"
+            android:gravity="center"
+            android:autoLink="all"/>
+    </LinearLayout>
+</LinearLayout>

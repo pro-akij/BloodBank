@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".My_shopping"
+    android:orientation="vertical"
+    android:background="#aaa">
+
+    <TextView
+        android:id="@+id/eeee"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="85dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text="Email :" />
+
+    <TextView
+        android:id="@+id/show_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/eeee"
+        android:layout_toRightOf="@id/eeee"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text="show email"/>
+    <TextView
+        android:id="@+id/ppppp"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eeee"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="50dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text="Password:"/>
+    <TextView
+        android:id="@+id/show_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/ppppp"
+        android:layout_toRightOf="@id/ppppp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text="show password"/>
+</RelativeLayout>

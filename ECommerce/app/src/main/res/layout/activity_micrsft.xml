@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Micrsft">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="13">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/microsoft"/>
+                <TextView
+                    android:id="@+id/get_header_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:background="#fff"
+                    android:text="Mens Fassionable Black T-shirt"/>
+                <TextView
+                    android:id="@+id/get_prize"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:background="#fff"
+                    android:text="$899"/>
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:paddingTop="9dp"
+                    android:background="#fff"
+                    android:text="Quantity"
+                    android:textAppearance="?android:textAppearanceLarge" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <Button
+                    android:id="@+id/microsort_specific"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#fff"
+                    android:gravity="left"
+                    android:paddingTop="9dp"
+                    android:text="Specification  >"
+                    android:textAppearance="?android:textAppearanceLarge"/>
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="19dp"
+                    android:textColor="#000"
+                    android:text="A T-shirt is a style of unisex fabric shirt named after the T shape of its body and sleeves. Traditionally it has short sleeves and a round neckline."/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+            <ImageView
+                android:id="@+id/share_microsoft"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_menu_share"
+                android:background="@color/colorred"/>
+            <Space
+                android:layout_width="2dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="9">
+
+            <Button
+                android:id="@+id/add_to_card_microsoft"
+                android:layout_width="265dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:background="@color/colorred"
+                android:gravity="center"
+                android:text="add to cart"
+                android:textAllCaps="true"
+                android:textAppearance="?android:textAppearanceLarge" />
+        </LinearLayout>
+        <Space
+            android:layout_width="2dp"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+            <ImageView
+                android:id="@+id/fabourite_share_microsoft"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="#aaa"
+                android:src="@drawable/favourite"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

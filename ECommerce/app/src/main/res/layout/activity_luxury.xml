@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Luxury">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="vertical">
+        <ViewFlipper
+            android:id="@+id/ornaments_view_flipper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:outlineAmbientShadowColor="#0ad232"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageButton
+                        android:id="@+id/image_ring2"
+                        android:layout_width="match_parent"
+                        android:layout_height="190dp"
+                        app:srcCompat="@drawable/ring2"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentTop="true"
+                        android:background="#fff"
+                        android:scaleType="fitCenter"/>
+
+                    <ImageButton
+                        android:id="@+id/image_necklace"
+                        android:layout_width="match_parent"
+                        android:layout_height="190dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/ring2_prize"
+                        app:srcCompat="@drawable/necklace"
+                        android:background="#fff"
+                        android:scaleType="fitCenter"/>
+
+                    <ImageButton
+                        android:id="@+id/image_foot_ornament"
+                        android:layout_width="match_parent"
+                        android:layout_height="190dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/necklace_prize"
+                        app:srcCompat="@drawable/foot_ornament"
+                        android:background="#fff"
+                        android:scaleType="fitCenter"/>
+
+                    <TextView
+                        android:id="@+id/ring2_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/image_ring2"
+                        android:background="#fff"
+                        android:maxLines="2"
+                        android:layout_marginTop="1dp"
+                        android:text="mens black t~shirt"/>
+
+                    <TextView
+                        android:id="@+id/necklace_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/image_necklace"
+                        android:background="#fff"
+                        android:maxLines="2"
+                        android:layout_marginTop="1dp"
+                        android:text="mens black t~shirt" />
+
+                    <TextView
+                        android:id="@+id/foot_ornament_ring2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/image_foot_ornament"
+                        android:background="#fff"
+                        android:maxLines="2"
+                        android:layout_marginTop="1dp"
+                        android:text="mens black t~shirt"/>
+
+
+                    <TextView
+                        android:id="@+id/ring2_prize"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ring2_text"
+                        android:background="#fff"
+                        android:text="$110"
+                        android:textAllCaps="true"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_marginTop="1dp"
+                        android:textAppearance="?android:textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/necklace_prize"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/necklace_text"
+                        android:background="#fff"
+                        android:text="$122"
+                        android:textAllCaps="true"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_marginTop="1dp"
+                        android:textAppearance="?android:textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/foot_ornament_prize"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/foot_ornament_ring2"
+                        android:background="#fff"
+                        android:text="$182"
+                        android:textAllCaps="true"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_marginTop="1dp"
+                        android:textAppearance="?android:textAppearanceLarge" />
+
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/image_watch"
+                        android:layout_width="match_parent"
+                        android:layout_height="190dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        app:srcCompat="@drawable/watch"
+                        android:background="#fff"
+                        android:scaleType="fitCenter"/>
+
+                    <ImageButton
+                        android:id="@+id/image_ring"
+                        android:layout_width="match_parent"
+                        android:layout_height="190dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/watch_prize"
+                        app:srcCompat="@drawable/ring"
+                        android:background="#fff"
+                        android:scaleType="fitCenter"/>
+
+                    <ImageButton
+                        android:id="@+id/image_necklace2"
+                        android:layout_width="match_parent"
+                        android:layout_height="190dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/ring_prize"
+                        app:srcCompat="@drawable/necklace2"
+                        android:background="#fff"
+                        android:scaleType="fitCenter"/>
+
+                    <TextView
+                        android:id="@+id/watch_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/image_watch"
+                        android:background="#fff"
+                        android:maxLines="2"
+                        android:layout_marginTop="1dp"
+                        android:text="white check t~shirt"/>
+
+                    <TextView
+                        android:id="@+id/ring_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/image_ring"
+                        android:background="#fff"
+                        android:maxLines="2"
+                        android:layout_marginTop="1dp"
+                        android:text="mens gray t~shirt"/>
+
+                    <TextView
+                        android:id="@+id/necklace2_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/image_necklace2"
+                        android:background="#fff"
+                        android:maxLines="2"
+                        android:layout_marginTop="1dp"
+                        android:text="mens black t~shirt"/>
+
+
+                    <TextView
+                        android:id="@+id/watch_prize"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/watch_text"
+                        android:background="#fff"
+                        android:text="$90"
+                        android:textAllCaps="true"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_marginTop="1dp"
+                        android:textAppearance="?android:textAppearanceLarge"/>
+
+                    <TextView
+                        android:id="@+id/ring_prize"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ring_text"
+                        android:background="#fff"
+                        android:text="$86"
+                        android:textAllCaps="true"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_marginTop="1dp"
+                        android:textAppearance="?android:textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/necklace2_prize"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/necklace2_text"
+                        android:background="#fff"
+                        android:text="$165"
+                        android:textAllCaps="true"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_marginTop="1dp"
+                        android:textAppearance="?android:textAppearanceLarge"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
